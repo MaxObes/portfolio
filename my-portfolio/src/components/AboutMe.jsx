@@ -7,9 +7,6 @@ const AboutMe = () => (
     <Typography variant="h4" component="h2" gutterBottom>
       Who I am
     </Typography>
-    <Typography variant="subtitle1" gutterBottom>
-      Computer Science '25
-    </Typography>
 
     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, alignItems: 'center', mt: 3 }}>
       <Box sx={{ flex: 1 }}>

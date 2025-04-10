@@ -4,7 +4,7 @@ import { Container, Box, Typography, Divider } from '@mui/material';
 const experiences = [
   { role: 'Data Analytics Engineer', company: 'Breakthrough' },
   { role: 'Software Engineer - Full Stack', company: 'UW-Athletics' },
-  { role: 'CS 200 Peer Mentor', company: 'University of Wisconsin-Madison' },
+  { role: 'Teaching Assistant - CS 200', company: 'University of Wisconsin-Madison' },
   { role: 'Community Outreach/Engagement Lead', company: 'Google Student Developers @ UW-Madison' },
 ];
 

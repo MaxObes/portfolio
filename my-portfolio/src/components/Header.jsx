@@ -74,7 +74,14 @@ const Header = () => {
                   key={href}
                   component="a"
                   href={href}
-                  sx={{ color: '#fff', textDecoration: 'none' }}
+                  sx={{
+                    color: '#fff',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s ease',
+                    '&:hover': {
+                      color: '#C5050C',
+                    },
+                  }}
                 >
                   <ListItemText primary={label} />
                 </ListItem>
