@@ -5,20 +5,27 @@ import '@fontsource/montserrat';
 
 const AboutMe = () => (
   <Container id="about" sx={{ py: 8 }}>
-    <Typography variant="sectionHeader" component="h2" gutterBottom>
+    {/* <Typography variant="sectionHeader" component="h2" gutterBottom>
       Who I am
-    </Typography>
+    </Typography> */}
 
-    <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, alignItems: 'center', mt: 3 }}>
+    <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, alignItems: 'center'}}>
       <Box sx={{ flex: 1 }}>
-        <Typography>
-          I was born and raised in Appleton, WI, where I fell in love with any bit of technology I could find.
-        </Typography>
-        <Typography>
-          I'm currently studying Computer Science & Data Science at the University of Wisconsin-Madison, where I expect to graduate May of 2025. There, I pride myself upon being a coach and mentor to my fellow students; whether it's through projects, leading hackathons, or even helping teach CS200.
-        </Typography>
-        <Typography>
-          I'm always available to chat about technology, computer science, or future opportunities. Below, you will find an updated list of my past positions and current toolkit. Looking forward to hearing from you!
+      <Typography
+          sx={{
+            fontSize: 20,
+            color: 'text.primary',
+            lineHeight: 1.6,
+            letterSpacing: '1px',
+            px: { xs: 1, sm: 2 },
+            textAlign: 'justify'
+          }}
+        >
+          
+          I was born and raised in Northern Wisconsin, where I fell in love with any bit of technology I could find.
+          I'm always available to chat about technology, computer science, or future opportunities. Below, you will find an updated 
+          list of my past positions and side projects! 
+          
         </Typography>
       </Box>
       <Avatar

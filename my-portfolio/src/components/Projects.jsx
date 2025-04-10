@@ -16,10 +16,18 @@ const projects = [
 
 const Projects = () => (
   <Container id="work" sx={{ py: 8 }}>
-    <Typography variant="h4" component="h2" gutterBottom>
+    <Typography variant="h4" component="h2" gutterBottom align="center">
       My Projects
     </Typography>
-    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 3,
+      }}
+    >
       {projects.map((project, index) => (
         <Box
           key={index}

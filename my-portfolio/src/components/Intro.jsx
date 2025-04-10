@@ -24,6 +24,10 @@ const Intro = () => {
                         justifyContent="center"
                         textAlign="center"
                         flexDirection={{ xs: 'column', md: 'row' }}
+                        sx={{
+                            alignItems: { xs: 'center', md: 'flex-start' },
+                            textAlign: { xs: 'center', md: 'left' },
+                        }}
                     >
                         <Avatar
                             src={introImage}
@@ -34,6 +38,10 @@ const Intro = () => {
                                 mb: { xs: 2, md: 0 },
                                 mr: { md: 4, xs: 0 },
                                 boxShadow: 6,
+                                '@media (max-width:400px)': {
+                                    width: 250,
+                                    height: 250,
+                                }
                             }}
                         />
                         <Box sx={{ textAlign: 'left', mt: 10 }}>
@@ -45,6 +53,9 @@ const Intro = () => {
                                     color: 'white',
                                     textShadow: '2px 2px 6px rgba(0,0,0,0.6)',
                                     mb: 1,
+                                    '@media (max-width:400px)': {
+                                        fontSize: '2.2rem',
+                                    }
                                 }}
                             >
                                 <Typewriter text="Hello! I'm Maxwell Oberbrunner" delay={50} />

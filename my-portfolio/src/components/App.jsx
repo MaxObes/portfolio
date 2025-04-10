@@ -22,7 +22,8 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 'fontWeightMedium'
     },
     components: {
         MuiTypography: {
