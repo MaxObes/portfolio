@@ -17,10 +17,10 @@ const Footer = () => (
         <IconButton component="a" href="https://www.linkedin.com/in/maxoberbrunner/" color="primary">
           <LinkedInIcon fontSize="large" />
         </IconButton>
-        <Typography variant="caption" color="textSecondary" align="center" sx={{ mt: 2 }}>
+      </Box>
+      <Typography variant="caption" color="textSecondary" align="center" sx={{ mt: 2 }}>
             <a href="https://www.freepik.com/free-vector/elegant-gradient-background_1538661.htm">Image by Sketchepedia on Freepik</a>
         </Typography>
-      </Box>
     </Container>
   </Box>
 
