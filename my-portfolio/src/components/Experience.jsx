@@ -18,22 +18,34 @@ const experiences = [
   {
     role: 'Data Analytics Engineer',
     company: 'Breakthrough',
-    details: ['Built reporting pipelines', 'Developed dashboards', 'Automated ETL processes']
+    details: ['Participated in daily stand-up and two-week Jira sprints, organizing tickets and ensuring quality tested code reaches production.',
+        'Minimize cross-dependencies across large-scale DBT Cloud environment, reducing development time and avoid unexpected model changes by 65%.',
+        'Ran regression tests and SQL queries inside Google BigQuery to verify schema changes to downstream models.',
+        'Presented 10-minute slideshow on contributions from internship to entire company staff, adapting the presentation and verbiage to reach across all audiences.'
+        ]
   },
   {
     role: 'Software Engineer - Full Stack',
     company: 'UW-Athletics',
-    details: ['Implemented ticketing system', 'Enhanced performance tracking features']
+    details: ['Participated in DSU and developed multiple internal webpages for Badger Athletics concurrently alongside two other student interns.',
+        'Experience in developing backend HTTP methods to communicate with Microsoft SQL server and display results directly into C# ASP.NET webpages built with bootstrap, SASS, and javascript.',
+        'Utilized MVC design methodology to organize data models, webpage views, and HTTP routing controllers.'
+        ]
   },
   {
     role: 'Teaching Assistant - CS 200',
     company: 'University of Wisconsin-Madison',
-    details: ['Led weekly discussion sections', 'Held office hours', 'Assisted in grading']
+    details: ['Highly competitive opportunity to collaborate with Professor Jim Williams of University of Wisconsin-Madison to aid students in completing weekly lab material.',
+        'Effectively communicate ideas in order to provide 10 office hours a week as a resource to students with questions to coding projects or assignments.' 
+        ]
   },
   {
     role: 'Community Outreach/Engagement Lead',
     company: 'Google Student Developers @ UW-Madison',
-    details: ['Organized tech talks', 'Engaged with local developers', 'Managed social media presence']
+    details: ['Manage large-scale projects such as future meetings, hackathons, and other events across students at UW-Madison.',
+        'Facilitate interview/Q&A between current Google Software Engineers and groups of 50+ students; provide knowledge about the technology industry and improve technical skills.',
+        'Innovate and create inspiring events to improve attendance to extend Google’s outreach to the campus.'
+        ]
   },
 ];
 
@@ -128,7 +140,7 @@ const Experience = () => {
                   ))}
                 </List>
               </Collapse>
-              {idx < experiences.length - 1 && <Divider sx={{ mt: 2 }} />}
+              {idx < experiences.length && <Divider sx={{ mt: 2 }} />}
             </Paper>
           </motion.div>
         );
