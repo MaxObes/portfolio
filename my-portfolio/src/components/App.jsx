@@ -12,7 +12,7 @@ const theme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: '#1976d2',
+            main: '#FFFFFF',
         },
         secondary: {
             main: '#dc004e',
@@ -22,8 +22,24 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: 'Roboto, sans-serif',
-    }
+        fontFamily: 'Roboto'
+    },
+    components: {
+        MuiTypography: {
+          variants: [
+            {
+              props: { variant: 'sectionHeader' },
+              style: ({ theme }) => ({
+                ...theme.typography.h4,
+                fontFamily: 'Roboto',
+                letterSpacing: '1px',
+                color: '#ffffff',
+                fontWeight: '600'
+              }),
+            },
+          ],
+        },
+      }
 });
 
 const App = () => {

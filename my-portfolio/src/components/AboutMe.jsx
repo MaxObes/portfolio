@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Box, Typography, Avatar } from '@mui/material';
 import badgersLogo from '../assets/Wisconsin_Badgers_logo.svg.png';
+import '@fontsource/montserrat'; 
 
 const AboutMe = () => (
   <Container id="about" sx={{ py: 8 }}>
-    <Typography variant="h4" component="h2" gutterBottom>
+    <Typography variant="sectionHeader" component="h2" gutterBottom>
       Who I am
     </Typography>
 

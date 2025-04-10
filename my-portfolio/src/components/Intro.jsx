@@ -52,6 +52,7 @@ const Intro = () => {
                             <Typography
                                 variant="subtitle1"
                                 sx={{
+                                    fontSize: '1.5rem',
                                     ml: 0.4,
                                     fontWeight: 500,
                                     letterSpacing: 1,
@@ -65,6 +66,7 @@ const Intro = () => {
                                 variant="subtitle2"
                                 gutterBottom
                                 sx={{
+                                    fontSize: '1rem',
                                     ml: 0.4,
                                     fontStyle: 'italic',
                                     color: '#dddddd',
