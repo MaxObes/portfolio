@@ -135,7 +135,20 @@ const Experience = () => {
                 <List dense>
                   {details.map((item, i) => (
                     <ListItem key={i}>
-                      <ListItemText primary={item} />
+                      <ListItemText
+                        primary={
+                          <Typography
+                            variant="body2"
+                            sx={{
+                              fontSize: '0.95rem',
+                              fontFamily: 'sans-serif',
+                              lineHeight: 1.5
+                            }}
+                          >
+                            {item}
+                          </Typography>
+                        }
+                      />
                     </ListItem>
                   ))}
                 </List>
